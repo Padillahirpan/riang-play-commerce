@@ -15,7 +15,7 @@ Table of contents:
 - Website/Frontend: <https://riang-play-fe.vercel.app/>
 - Backend: <https://riang-play-be.onrender.com/>
 - Repositories:
-  - General: <hhttps://github.com/Padillahirpan/riang-play-commerce>
+  - General: <https://github.com/Padillahirpan/riang-play-commerce>
   - Backend: <https://github.com/Padillahirpan/riang-play-be>
   - Frontend: <https://github.com/Padillahirpan/riang-play-fe>
 

@@ -38,12 +38,15 @@ Inspirations:
   - Price
   - Description
   - Add to cart form: quantity input & add to cart button
-  - Shopping cart page
 - Product items to buy
   - Image, name, price, quantity, total (price x quantity)
   - Remove items
 - Profile Page
+  - Logout
 - Cart Page
+  - List cart
+  - Remove cart (Not implemented)
+  - Update cart (Not implemented)
 - Link: continue shopping, go to products catalogue
 - Link: checkout
 

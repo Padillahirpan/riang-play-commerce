@@ -7,13 +7,8 @@ Table of contents:
 - [RiangPlay](#riangplay)
   - [Links](#links)
   - [Features](#features)
-  - [UI Design](#ui-designs)
-    - [Home Page](#home-page)
-    - [Product](#products)
-    - [Detail Product](#detail-product)
-    - [Cart Page](#cart-page)
-    - [Login Page](#login-page)
-    - [Register Page](#register-page)
+  - [ERD](#entity-relationship-diagram-erd)
+  - [Endpoints](#rest-api-endpoints)
 
 ## Links
 

@@ -63,24 +63,33 @@ Inspirations:
 
 ### API Product
 
-| Endpoint          | HTTP     | Description               |
-| ----------------- | -------- | ------------------------- |
-| `/products`       | `GET`    | Get all products          |
-| `/products/:slug` | `GET`    | Get product by slug       |
-| `/products/seed`  | `POST`   | Seed all initial products |
-| `/products`       | `POST`   | Add new product           |
-| `/products`       | `DELETE` | Delete all products       |
-| `/products/:id`   | `DELETE` | Delete product by id      |
-| `/products/:id`   | `PATCH`  | Update product by id      |
+| Endpoint          | HTTP     | Permission    | Description          |
+| ----------------- | -------- | ------------- | -------------------- |
+| `/products`       | `GET`    | Public        | Get all products     |
+| `/products/:slug` | `GET`    | Public        | Get product by slug  |
+| `/products`       | `POST`   | Authenticated | Add new product      |
+| `/products/:id`   | `DELETE` | Authenticated | Delete product by id |
+| `/products/:id`   | `PUT`    | Authenticated | Update product by id |
+
+### API Cart
+
+| Endpoint        | HTTP     | Permission    | Description                          |
+| --------------- | -------- | ------------- | ------------------------------------ |
+| `/cart`         | `GET`    | Authenticated | Get all cart by user token           |
+| `/cart`         | `POST`   | Authenticated | Add new product to the cart          |
+| `/cart/:itemId` | `DELETE` | Authenticated | Remove a product from the cart by id |
+| `/cart/:itemId` | `PUT`    | Authenticated | Update product on cart by id         |
 
 ### API Auth
 
-| Endpoint          | HTTP     | Permission    | Description                          |
-| ----------------- | -------- | ------------- | ------------------------------------ |
-| `/auth/register`  | `POST`   | Public        | Register User                        |
-| `/auth/login`     | `POST`   | Public        | Login User                           |
-| `/auth/me`        | `GET`    | Authenticated | Get User Profile                     |
-| `/cart`           | `GET`    | Authenticated | Get the current user's cart items    |
-| `/cart/items`     | `POST`   | Authenticated | Add new item(s) to the cart          |
-| `/cart/items/:id` | `DELETE` | Authenticated | Remove an item from the cart by ID   |
-| `/cart/items/:id` | `PATCH`  | Authenticated | Update the quantity of an item by ID |
+| Endpoint         | HTTP   | Permission    | Description      |
+| ---------------- | ------ | ------------- | ---------------- |
+| `/auth/register` | `POST` | Public        | Register User    |
+| `/auth/login`    | `POST` | Public        | Login User       |
+| `/auth/me`       | `GET`  | Authenticated | Get User Profile |
+
+### API User
+
+| Endpoint | HTTP  | Permission    | Description  |
+| -------- | ----- | ------------- | ------------ |
+| `/users` | `GET` | Authenticated | Get all user |

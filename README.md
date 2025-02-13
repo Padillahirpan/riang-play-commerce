@@ -53,7 +53,7 @@ Inspirations:
 
 ## REST API Endpoints
 
-- Production: `https://riang-play-fe.vercel.app/`
+- Production: `https://riang-play-be.onrender.com/`
 - Local: `http://localhost:3000`
 
 ### API Product

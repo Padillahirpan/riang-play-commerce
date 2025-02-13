@@ -38,9 +38,6 @@ Inspirations:
   - Price
   - Description
   - Add to cart form: quantity input & add to cart button
-- Product items to buy
-  - Image, name, price, quantity, total (price x quantity)
-  - Remove items
 - Profile Page
   - Logout
 - Cart Page
